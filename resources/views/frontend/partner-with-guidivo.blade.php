@@ -50,7 +50,7 @@
                             class="tiIcon ti-angle-double-right"></i></a>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/partner-img1.png" alt="Trusted Brands">
+                    <img src="{{ asset('frontend/images/partner-img1.png') }}" alt="Trusted Brands">
                 </div>
             </div>
         </div>
@@ -72,9 +72,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon1.png" alt="Performance-Based Marketing">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-          <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon1.png') }}"
+                                alt="Performance-Based Marketing">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+              <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Performance-Based Marketing</h3>
                         <p>Drive measurable results through high-performing campaigns customized to your brand's needs.</p>
@@ -83,9 +84,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon2.png" alt="Search Engine Optimization (SEO)">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon2.png') }}"
+                                alt="Search Engine Optimization (SEO)">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Search Engine Optimization (SEO)</h3>
                         <p>Boost your online presence through expert SEO partnerships.</p>
@@ -94,9 +96,9 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon3.png" alt="Paid Search Campaigns">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon3.png') }}" alt="Paid Search Campaigns">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Paid Search Campaigns</h3>
                         <p>Achieve your growth goals with targeted paid search strategies and premium placements.</p>
@@ -105,9 +107,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon4.png" alt="Social Media Integration">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon4.png') }}"
+                                alt="Social Media Integration">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Social Media Integration</h3>
                         <p>Amplify your reach with partnerships that include our dynamic social media channels.</p>
@@ -116,9 +119,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon5.png" alt="Publisher Collaborations">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon5.png') }}"
+                                alt="Publisher Collaborations">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Publisher Collaborations</h3>
                         <p>Work with us to distribute your content in impactful ways that expand your reach.</p>
@@ -127,9 +131,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/opportunities-icon6.png" alt="Unique Collaboration Opportunities">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/opportunities-icon6.png') }}"
+                                alt="Unique Collaboration Opportunities">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Unique Collaboration Opportunities</h3>
                         <p>Have a creative idea or innovation? We’re all ears!</p>
@@ -157,7 +162,7 @@
                             class="tiIcon ti-angle-double-right"></i></a>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/partner-img3.png" alt="Trusted Brands">
+                    <img src="{{ asset('frontend/images/partner-img3.png') }}" alt="Trusted Brands">
                 </div>
             </div>
         </div>

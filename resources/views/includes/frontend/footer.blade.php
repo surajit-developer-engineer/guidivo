@@ -3,7 +3,7 @@
     <div class="container">
         <div class="footer-row">
             <div class="footer-logo-sec">
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                     <img class="footer-logo" src="{{ asset('frontend/images/logo.png') }}" alt="Logo" />
                 </a>
                 <h3>Contact Us</h3>
@@ -81,15 +81,15 @@
             <div class="footer-menu-sec">
                 <h3>Disclosures</h3>
                 <ul>
-                    <li><a href="#">Advertisement Disclosure</a></li>
-                    <li><a href="#">Legal Disclosure</a></li>
-                    <li><a href="#">Reviews Guidelines</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Do Not Sell My Information</a></li>
-                    <li><a href="#">CCPA Privacy Notices</a></li>
-                    <li><a href="#">Guidivo Methodology</a></li>
+                    <li><a href="{{ route('advertisement.disclosure') }}">Advertisement Disclosure</a></li>
+                    <li><a href="{{ route('legal.disclosure') }}">Legal Disclosure</a></li>
+                    <li><a href="{{ route('reviews.guidelines') }}">Reviews Guidelines</a></li>
+                    <li><a href="{{ route('terms.and.conditions') }}">Terms and Conditions</a></li>
+                    <li><a href="{{ route('privacy.policy') }}">Privacy Policy</a></li>
+                    <li><a href="{{ route('home') }}">Cookie Policy</a></li>
+                    <li><a href="{{ route('sell.my.information') }}">Do Not Sell My Information</a></li>
+                    <li><a href="{{ route('privacy.notice') }}">CCPA Privacy Notices</a></li>
+                    <li><a href="{{ route('methodology') }}">Guidivo Methodology</a></li>
                 </ul>
             </div>
         </div>

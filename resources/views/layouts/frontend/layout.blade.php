@@ -9,7 +9,7 @@
         content="Guidivo connects consumers and business owners with top-rated brands and services
 across various industries. Find trusted guidance, expert insights, and top picks today." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    <link rel="icon" type="image/png" href="{{ asset('frontend/images/brand-logo.png') }}">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}" />
     <link type="text/css" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.min.css"

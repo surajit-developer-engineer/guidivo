@@ -47,7 +47,7 @@
                             class="tiIcon ti-angle-double-right"></i></a>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/partner-img1.png" alt="Partner with Guidivo">
+                    <img src="{{ asset('frontend/images/partner-img1.png') }}" alt="Partner with Guidivo">
                 </div>
             </div>
         </div>
@@ -68,9 +68,9 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/collaboration-icon4.png" alt="Content Collaborations">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-          <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/collaboration-icon4.png') }}" alt="Content Collaborations">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+              <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Content Collaborations</h3>
                         <p>Work with us to produce high-quality, relevant content that resonates with your audience and
@@ -81,9 +81,10 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/collaboration-icon2.png" alt="Traffic-Driving Strategies">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/collaboration-icon2.png') }}"
+                                alt="Traffic-Driving Strategies">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Traffic-Driving Strategies</h3>
                         <p>Employ innovative campaigns to channel traffic to Guidivo, ensuring maximum engagement and
@@ -93,9 +94,9 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/collaboration-icon3.png" alt="Co-Branded Campaigns">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/collaboration-icon3.png') }}" alt="Co-Branded Campaigns">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Co-Branded Campaigns</h3>
                         <p> Join forces on joint marketing initiatives that enhance visibility for both partners.</p>
@@ -104,9 +105,9 @@
                 <div class="item">
                     <div class="brands-box width100">
                         <div class="featured-icon-holder">
-                            <img src="images/collaboration-icon4.png" alt="Referral Partnerships">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/collaboration-icon4.png') }}" alt="Referral Partnerships">
+                            <!-- <img class="brandNimg" src="{{ asset('frontend/images/brand-logo.png') }}" alt="Wine Clubs">
+             <img class="brandHimg" src="{{ asset('frontend/images/brand-logo-hover') }}.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Referral Partnerships</h3>
                         <p>Build a seamless experience for your audience by referring them to Guidivo for trusted
@@ -138,7 +139,7 @@
                             class="tiIcon ti-angle-double-right"></i></a>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/partner-img2.png" alt="Traffic to Guidivo">
+                    <img src="{{ asset('frontend/images/partner-img2.png') }}" alt="Traffic to Guidivo">
                 </div>
             </div>
         </div>
@@ -148,7 +149,7 @@
         <div class="container">
             <div class="proDetails-flx">
                 <div class="proDetailsflex-right">
-                    <img src="images/partner-img3.png" alt="How to Get Started">
+                    <img src="{{ asset('frontend/images/partner-img3.png') }}" alt="How to Get Started">
                 </div>
                 <div class="proDetailsflex-left proleft-50">
                     <h2>How to Get Started</h2>

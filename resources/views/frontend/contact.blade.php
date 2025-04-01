@@ -30,7 +30,7 @@
                     </ul>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/contact-img.png" alt="Trusted Brands">
+                    <img src="{{ asset('frontend/images/contact-img.png') }}" alt="Trusted Brands">
                 </div>
             </div>
         </div>

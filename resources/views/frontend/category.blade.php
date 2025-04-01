@@ -32,8 +32,8 @@
                         more confident decisions.</p>
                 </div>
                 <!-- <div class="proDetailsflex-right">
-        <img src="images/img-visual.png" alt="Banner Image">
-       </div> -->
+            <img src="{{ asset('frontend/images/img-visual') }}.png" alt="Banner Image">
+           </div> -->
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
             <div class="trending-grids trending-grids-3grid">
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/automotive.jpg" alt="Automotive">
+                        <img src="{{ asset('frontend/images/automotive.jpg') }}" alt="Automotive">
                     </div>
                     <div class="box-content">
                         <h3>Automotive</h3>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/babies.jpg" alt="Babies">
+                        <img src="{{ asset('frontend/images/babies.jpg') }}" alt="Babies">
                     </div>
                     <div class="box-content">
                         <h3>Babies</h3>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/business-management.jpg" alt="Business Management">
+                        <img src="{{ asset('frontend/images/business-management') }}.jpg" alt="Business Management">
                     </div>
                     <div class="box-content">
                         <h3>Business Management</h3>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/charity.jpg" alt="Charity">
+                        <img src="{{ asset('frontend/images/charity.jpg') }}" alt="Charity">
                     </div>
                     <div class="box-content">
                         <h3>Charity</h3>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/credit.jpg" alt="Credit">
+                        <img src="{{ asset('frontend/images/credit.jpg') }}" alt="Credit">
                     </div>
                     <div class="box-content">
                         <h3>Credit</h3>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/credit-cards.jpg" alt="Credit Cards">
+                        <img src="{{ asset('frontend/images/credit-cards') }}.jpg" alt="Credit Cards">
                     </div>
                     <div class="box-content">
                         <h3>Credit Cards</h3>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/dating.jpg" alt="Dating">
+                        <img src="{{ asset('frontend/images/dating.jpg') }}" alt="Dating">
                     </div>
                     <div class="box-content">
                         <h3>Dating</h3>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/entertainment.jpg" alt="Entertainment">
+                        <img src="{{ asset('frontend/images/entertainment.jpg') }}" alt="Entertainment">
                     </div>
                     <div class="box-content">
                         <h3>Entertainment</h3>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/fashion.jpg" alt="Fashion">
+                        <img src="{{ asset('frontend/images/fashion.jpg') }}" alt="Fashion">
                     </div>
                     <div class="box-content">
                         <h3>Fashion</h3>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/financial-services.jpg" alt="Financial Services">
+                        <img src="{{ asset('frontend/images/financial-services') }}.jpg" alt="Financial Services">
                     </div>
                     <div class="box-content">
                         <h3>Financial Services</h3>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/health-lifestyle.jpg" alt="Health & Lifestyle">
+                        <img src="{{ asset('frontend/images/health-lifestyle') }}.jpg" alt="Health & Lifestyle">
                     </div>
                     <div class="box-content">
                         <h3>Health & Lifestyle</h3>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/home-services.jpg" alt="Home Services">
+                        <img src="{{ asset('frontend/images/home-services') }}.jpg" alt="Home Services">
                     </div>
                     <div class="box-content">
                         <h3>Home Services</h3>
@@ -175,7 +175,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image">
-                        <img src="images/hot-products.jpg" alt="Hot Products">
+                        <img src="{{ asset('frontend/images/hot-products') }}.jpg" alt="Hot Products">
                     </div>
                     <div class="box-content">
                         <h3>Hot Products</h3>
@@ -185,7 +185,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/life-insurance.jpg" alt="Insurance">
+                        <img src="{{ asset('frontend/images/life-insurance') }}.jpg" alt="Insurance">
                     </div>
                     <div class="box-content">
                         <h3>Insurance</h3>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/jewelry.jpg" alt="Jewelry">
+                        <img src="{{ asset('frontend/images/jewelry.jpg') }}" alt="Jewelry">
                     </div>
                     <div class="box-content">
                         <h3>Jewelry</h3>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/kidswear.jpg" alt="Kidswear">
+                        <img src="{{ asset('frontend/images/kidswear.jpg') }}" alt="Kidswear">
                     </div>
                     <div class="box-content">
                         <h3>Kidswear</h3>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/legal.jpg" alt="Legal">
+                        <img src="{{ asset('frontend/images/legal.jpg') }}" alt="Legal">
                     </div>
                     <div class="box-content">
                         <h3>Legal</h3>
@@ -227,7 +227,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/menswear.jpg" alt="Menswear">
+                        <img src="{{ asset('frontend/images/menswear.jpg') }}" alt="Menswear">
                     </div>
                     <div class="box-content">
                         <h3>Menswear</h3>
@@ -237,7 +237,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/travel.jpg" alt="Travel">
+                        <img src="{{ asset('frontend/images/travel.jpg') }}" alt="Travel">
                     </div>
                     <div class="box-content">
                         <h3>Travel</h3>
@@ -247,7 +247,7 @@
                 </div>
                 <div class="grid-box">
                     <div class="box-image box-image-height">
-                        <img src="images/womenswear.jpg" alt="Womenswear">
+                        <img src="{{ asset('frontend/images/womenswear.jpg') }}" alt="Womenswear">
                     </div>
                     <div class="box-content">
                         <h3>Womenswear</h3>
@@ -277,8 +277,8 @@
                         never paid for or influenced by promotional deals.</p>
                 </div>
                 <!-- <div class="proDetailsflex-right">
-        <img src="images/img-visual.png" alt="Banner Image">
-       </div> -->
+            <img src="{{ asset('frontend/images/img-visual') }}.png" alt="Banner Image">
+           </div> -->
             </div>
         </div>
     </div>
@@ -302,7 +302,8 @@
                     </ul>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img style="border-radius: 5px;" src="images/meeting-specialists.jpg" alt="Banner Image">
+                    <img style="border-radius: 5px;" src="{{ asset('frontend/images/meeting-specialists') }}.jpg"
+                        alt="Banner Image">
                 </div>
             </div>
         </div>
@@ -324,8 +325,8 @@
                     <p>Trust Guidivo to guide you toward the best services and brands, every time.</p>
                 </div>
                 <!-- <div class="proDetailsflex-right">
-        <img src="images/img-visual.png" alt="Banner Image">
-       </div> -->
+            <img src="{{ asset('frontend/images/img-visual') }}.png" alt="Banner Image">
+           </div> -->
             </div>
         </div>
     </div>

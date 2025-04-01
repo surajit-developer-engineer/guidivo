@@ -25,7 +25,7 @@
                         it aligns with our commitment to transparency and consumer trust.</p>
                 </div>
                 <div class="proDetailsflex-right">
-                    <img src="images/brands.png" alt="Trusted Brands">
+                    <img src="{{ asset('frontend/images/brands.png') }}" alt="Trusted Brands">
                 </div>
             </div>
         </div>
@@ -48,9 +48,9 @@
                 <div class="item">
                     <div class="brands-box">
                         <div class="featured-icon-holder">
-                            <img src="images/recommend-icon1.png" alt="Advanced Methodology">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/recommend-icon1.png') }}" alt="Advanced Methodology">
+                            <!-- <img class="brandNimg" src="{{ asset('images/brand-logo') }}.png" alt="Wine Clubs">
+                 <img class="brandHimg" src="{{ asset('images/brand-logo') }}-hover.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Advanced Methodology</h3>
                         <p>We utilize technology-driven analysis, combined with insider marketing insight, to assess
@@ -61,9 +61,9 @@
                 <div class="item">
                     <div class="brands-box">
                         <div class="featured-icon-holder">
-                            <img src="images/recommend-icon2.png" alt="Continuous Monitoring">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/recommend-icon2.png') }}" alt="Continuous Monitoring">
+                            <!-- <img class="brandNimg" src="{{ asset('images/brand-logo') }}.png" alt="Wine Clubs">
+                 <img class="brandHimg" src="{{ asset('images/brand-logo') }}-hover.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Continuous Monitoring</h3>
                         <p>Even after a company is listed, we keep a close eye on their performance to make sure they
@@ -75,9 +75,9 @@
                 <div class="item">
                     <div class="brands-box">
                         <div class="featured-icon-holder">
-                            <img src="images/recommend-icon3.png" alt="No Paid Influence">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/recommend-icon3.png') }}" alt="No Paid Influence">
+                            <!-- <img class="brandNimg" src="{{ asset('images/brand-logo') }}.png" alt="Wine Clubs">
+                 <img class="brandHimg" src="{{ asset('images/brand-logo') }}-hover.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>No Paid Influence</h3>
                         <p>To maintain complete transparency, we eliminate any form of paid advertising or ranking
@@ -90,9 +90,9 @@
                 <div class="item">
                     <div class="brands-box">
                         <div class="featured-icon-holder">
-                            <img src="images/recommend-icon4.png" alt="Unbiased Research">
-                            <!-- <img class="brandNimg" src="images/brand-logo.png" alt="Wine Clubs">
-         <img class="brandHimg" src="images/brand-logo-hover.png" alt="Wine Clubs"> -->
+                            <img src="{{ asset('frontend/images/recommend-icon4.png') }}" alt="Unbiased Research">
+                            <!-- <img class="brandNimg" src="{{ asset('images/brand-logo') }}.png" alt="Wine Clubs">
+                 <img class="brandHimg" src="{{ asset('images/brand-logo') }}-hover.png" alt="Wine Clubs"> -->
                         </div>
                         <h3>Unbiased Research</h3>
                         <p>We dig deep into customer reviews, industry reputation, and service quality to
@@ -111,7 +111,7 @@
     <div class="container mt-95">
         <div class="trust-sec">
             <div class="trust-col">
-                <img src="images/choose.png" alt="choose Guidivo">
+                <img src="{{ asset('frontend/images/choose.png') }}" alt="choose Guidivo">
             </div>
             <div class="trust-col-right width60">
                 <h2>When you choose Guidivo</h2>
@@ -134,7 +134,7 @@
                     had positive experiences. Created by Guidivo experts and real consumers, for consumers like you.</p>
             </div>
             <div class="trust-col text-right">
-                <img src="images/trusted-brands.png" alt="Trust">
+                <img src="{{ asset('frontend/images/trusted-brands.png') }}" alt="Trust">
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
 <div class="header">
     <div class="container">
         <div class="top-flx-sec">
-            <a class="logo" href="index.html">
+            <a class="logo" href="{{ route('home') }}">
                 <img src="{{ asset('frontend/images/logo.png') }}" alt="Goal Questers" />
             </a>
             <div class="form-search">
